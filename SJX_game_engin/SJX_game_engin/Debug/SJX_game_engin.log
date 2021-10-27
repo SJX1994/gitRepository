@@ -1,2 +1,3 @@
 ﻿  Main.cpp
+e:\gitrepository\sjx_game_engin\sjx_game_engin\main.cpp(107): warning C4305: “参数”: 从“double”到“GLfloat”截断
   SJX_game_engin.vcxproj -> E:\gitRepository\SJX_game_engin\Debug\SJX_game_engin.exe
