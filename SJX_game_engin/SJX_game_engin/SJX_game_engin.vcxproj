@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{20E369DC-DFB3-4577-A41D-8E600667DC5C}</ProjectGuid>
     <RootNamespace>SJXgameengin</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -70,12 +70,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>E:\gitRepository\SJX_game_engin\Libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\gitRepository\SJX_game_engin\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\GitDepot\GameEngine\SJX_game_engin\Libraries\include;D:\GitDepot\GameEngine\SJX_game_engin\Libraries\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\GitDepot\GameEngine\SJX_game_engin\Libraries\lib;E:\gitRepository\SJX_game_engin\Libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>E:\gitRepository\SJX_game_engin\Libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\gitRepository\SJX_game_engin\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\GitDepot\GameEngine\SJX_game_engin\Libraries\include;E:\gitRepository\SJX_game_engin\Libraries\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\GitDepot\GameEngine\SJX_game_engin\Libraries\lib;E:\gitRepository\SJX_game_engin\Libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

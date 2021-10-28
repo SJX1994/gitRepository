@@ -1,9 +1,12 @@
-﻿  Main.cpp
+﻿  glad.c
+  Main.cpp
 Main.obj : error LNK2019: 无法解析的外部符号 glfwInit，该符号在函数 main 中被引用
 Main.obj : error LNK2019: 无法解析的外部符号 glfwTerminate，该符号在函数 main 中被引用
 Main.obj : error LNK2019: 无法解析的外部符号 glfwWindowHint，该符号在函数 main 中被引用
 Main.obj : error LNK2019: 无法解析的外部符号 glfwCreateWindow，该符号在函数 main 中被引用
 Main.obj : error LNK2019: 无法解析的外部符号 glfwDestroyWindow，该符号在函数 main 中被引用
+Main.obj : error LNK2019: 无法解析的外部符号 glfwWindowShouldClose，该符号在函数 main 中被引用
+Main.obj : error LNK2019: 无法解析的外部符号 glfwPollEvents，该符号在函数 main 中被引用
 Main.obj : error LNK2019: 无法解析的外部符号 glfwMakeContextCurrent，该符号在函数 main 中被引用
-E:\gitRepository\SJX_game_engin\Libraries\lib\glfw3.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
-E:\gitRepository\SJX_game_engin\x64\Debug\SJX_game_engin.exe : fatal error LNK1120: 6 个无法解析的外部命令
+D:\GitDepot\GameEngine\SJX_game_engin\Libraries\lib\glfw3.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\GitDepot\GameEngine\SJX_game_engin\x64\Debug\SJX_game_engin.exe : fatal error LNK1120: 8 个无法解析的外部命令

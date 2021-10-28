@@ -1762,6 +1762,10 @@ typedef struct GLFWgamepadstate
  *  should be terminated in order to free any resources allocated during or
  *  after initialization.
  *
+ * 此函数初始化 GLFW 库。 在大多数 GLFW 函数之前
+  * 使用时，必须初始化 GLFW，并且在应用程序终止 GLFW 之前
+  * 应终止以释放在或期间分配的任何资源
+  * 初始化后。
  *  If this function fails, it calls @ref glfwTerminate before returning.  If it
  *  succeeds, you should call @ref glfwTerminate before the application exits.
  *
@@ -1799,11 +1803,19 @@ GLFWAPI int glfwInit(void);
  *  modified gamma ramps and frees any other allocated resources.  Once this
  *  function is called, you must again call @ref glfwInit successfully before
  *  you will be able to use most GLFW functions.
+ * 此函数销毁所有剩余的窗口和光标，恢复任何
+  * 修改伽玛斜坡并释放任何其他分配的资源。 一旦这
+  * 函数被调用，必须再次成功调用@ref glfwInit
+  * 您将能够使用大多数 GLFW 功能。
  *
  *  If GLFW has been successfully initialized, this function should be called
  *  before the application exits.  If initialization fails, there is no need to
  *  call this function, as it is called by @ref glfwInit before it returns
  *  failure.
+ * 如果 GLFW 已成功初始化，则应调用此函数
+  * 在应用程序退出之前。 如果初始化失败，则无需
+  * 调用这个函数，因为它在返回之前被@ref glfwInit 调用
+  *  失败。
  *
  *  This function has no effect if GLFW is not initialized.
  *
@@ -2495,11 +2507,15 @@ GLFWAPI void glfwDefaultWindowHints(void);
 GLFWAPI void glfwWindowHint(int hint, int value);
 
 /*! @brief Sets the specified window hint to the desired value.
- *
+ * 我的理解：设置GL接口版本
  *  This function sets hints for the next call to @ref glfwCreateWindow.  The
  *  hints, once set, retain their values until changed by a call to this
  *  function or @ref glfwDefaultWindowHints, or until the library is terminated.
  *
+  * 此函数为下一次调用@ref glfwCreateWindow 设置提示。 这
+  * 提示，一旦设置，将保留其值，直到调用 this
+  * 函数或@ref glfwDefaultWindowHints，或直到库终止。
+  *
  *  Only string type hints can be set with this function.  Integer value hints
  *  are set with @ref glfwWindowHint.
  *
