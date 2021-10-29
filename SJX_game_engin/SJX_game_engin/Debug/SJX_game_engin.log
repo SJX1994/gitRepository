@@ -1,4 +1,3 @@
 ﻿  Main.cpp
-d:\gitdepot\gameengine\sjx_game_engin\libraries\include\glfw\glfw3.h(1718): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-d:\gitdepot\gameengine\sjx_game_engin\libraries\include\glfw\glfw3.h(2485): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  SJX_game_engin.vcxproj -> D:\GitDepot\GameEngine\SJX_game_engin\Debug\SJX_game_engin.exe
+e:\gitrepository\sjx_game_engin\sjx_game_engin\main.cpp(107): warning C4305: “参数”: 从“double”到“GLfloat”截断
+  SJX_game_engin.vcxproj -> E:\gitRepository\SJX_game_engin\Debug\SJX_game_engin.exe
