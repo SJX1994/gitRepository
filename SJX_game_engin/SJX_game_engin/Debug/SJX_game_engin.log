@@ -1,3 +1,6 @@
 ﻿  Main.cpp
-e:\gitrepository\sjx_game_engin\sjx_game_engin\main.cpp(107): warning C4305: “参数”: 从“double”到“GLfloat”截断
+e:\gitrepository\sjx_game_engin\sjx_game_engin\main.cpp(47): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+e:\gitrepository\sjx_game_engin\sjx_game_engin\main.cpp(44): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+e:\gitrepository\sjx_game_engin\sjx_game_engin\main.cpp(45): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+e:\gitrepository\sjx_game_engin\sjx_game_engin\main.cpp(46): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
   SJX_game_engin.vcxproj -> E:\gitRepository\SJX_game_engin\Debug\SJX_game_engin.exe
