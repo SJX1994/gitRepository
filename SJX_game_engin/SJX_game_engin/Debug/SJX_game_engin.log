@@ -1,3 +1,18 @@
-﻿  Main.cpp
-e:\gitrepository\sjx_game_engin\sjx_game_engin\main.cpp(107): warning C4305: “参数”: 从“double”到“GLfloat”截断
-  SJX_game_engin.vcxproj -> E:\gitRepository\SJX_game_engin\Debug\SJX_game_engin.exe
+﻿  LINK : 没有找到 D:\GitDepot\GameEngine\SJX_game_engin\Debug\SJX_game_engin.exe 或上一个增量链接没有生成它；正在执行完全链接
+glad.obj : warning LNK4099: 未找到 PDB“vc141.pdb”(使用“glad.obj”或在“D:\GitDepot\GameEngine\SJX_game_engin\Debug\vc141.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(context.obj)”或在“D:\GitDepot\GameEngine\SJX_game_engin\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(init.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(init.obj)”或在“D:\GitDepot\GameEngine\SJX_game_engin\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(input.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(input.obj)”或在“D:\GitDepot\GameEngine\SJX_game_engin\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(monitor.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(monitor.obj)”或在“D:\GitDepot\GameEngine\SJX_game_engin\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(vulkan.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(vulkan.obj)”或在“D:\GitDepot\GameEngine\SJX_game_engin\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(window.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(window.obj)”或在“D:\GitDepot\GameEngine\SJX_game_engin\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_init.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_init.obj)”或在“D:\GitDepot\GameEngine\SJX_game_engin\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_joystick.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_joystick.obj)”或在“D:\GitDepot\GameEngine\SJX_game_engin\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_monitor.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_monitor.obj)”或在“D:\GitDepot\GameEngine\SJX_game_engin\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_time.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_time.obj)”或在“D:\GitDepot\GameEngine\SJX_game_engin\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_thread.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_thread.obj)”或在“D:\GitDepot\GameEngine\SJX_game_engin\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_window.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_window.obj)”或在“D:\GitDepot\GameEngine\SJX_game_engin\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(wgl_context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(wgl_context.obj)”或在“D:\GitDepot\GameEngine\SJX_game_engin\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(egl_context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(egl_context.obj)”或在“D:\GitDepot\GameEngine\SJX_game_engin\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(osmesa_context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(osmesa_context.obj)”或在“D:\GitDepot\GameEngine\SJX_game_engin\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  SJX_game_engin.vcxproj -> D:\GitDepot\GameEngine\SJX_game_engin\Debug\SJX_game_engin.exe
